@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>우리누리 | AI 자동화 블로그 네트워크</title>
+  <meta name="description" content="우리누리는 AI와 자동화를 활용하여 IT, 생산성, 디지털 도구 정보를 정리하는 블로그 네트워크입니다." />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+      background: #f7f9fc;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffffff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 18px 24px;
+    }
+
+    nav {
+      max-width: 1080px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav strong {
+      font-size: 20px;
+    }
+
+    nav a {
+      margin-left: 18px;
+      color: #2563eb;
+      text-decoration: none;
+      font-size: 15px;
+    }
+
+    .hero {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 90px 24px 60px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #4b5563;
+      margin-bottom: 32px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #2563eb;
+      color: #ffffff;
+      padding: 14px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    section {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 40px 24px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 16px;
+    }
+
+    .card {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 8px 24px rgba(15, 23, 42, 0.04);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin: 0;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .blog-list {
+      display: grid;
+      gap: 14px;
+    }
+
+    .blog-item {
+      background: #ffffff;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 18px 20px;
+    }
+
+    .blog-item a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .blog-item span {
+      display: block;
+      margin-top: 4px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    .about {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 28px;
+      border: 1px solid #e5e7eb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 36px 24px;
+      color: #6b7280;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      nav a {
+        margin-left: 10px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <strong>우리누리</strong>
+      <div>
+        <a href="#blogs">블로그</a>
+        <a href="#about">소개</a>
+        <a href="#contact">문의</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>우리누리</h1>
+      <p>
+        AI 자동화 블로그 네트워크<br />
+        AI와 자동화를 활용하여 IT, 생산성, 디지털 도구 정보를 정리합니다.
+      </p>
+      <a class="button" href="#blogs">블로그 바로가기</a>
+    </section>
+
+    <section>
+      <h2>주요 주제</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>AI 활용</h3>
+          <p>AI 도구와 자동화 활용법</p>
+        </div>
+        <div class="card">
+          <h3>ChatGPT</h3>
+          <p>업무와 콘텐츠 제작에 쓰는 ChatGPT</p>
+        </div>
+        <div class="card">
+          <h3>Windows</h3>
+          <p>PC 사용법과 생산성 팁</p>
+        </div>
+        <div class="card">
+          <h3>macOS</h3>
+          <p>맥 사용법과 작업 환경 구성</p>
+        </div>
+        <div class="card">
+          <h3>SEO</h3>
+          <p>블로그 운영과 검색 최적화</p>
+        </div>
+        <div class="card">
+          <h3>생산성</h3>
+          <p>자동화와 업무 효율 개선</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs">
+      <h2>운영 중인 블로그</h2>
+      <div class="blog-list">
+        <div class="blog-item">
+          <a href="https://0.urinury.com">0.urinury.com</a>
+          <span>메인 블로그</span>
+        </div>
+        <div class="blog-item">
+          <a href="https://1.urinury.com">1.urinury.com</a>
+          <span>AI / ChatGPT</span>
+        </div>
+        <div class="blog-item">
+          <a href="https://2.urinury.com">2.urinury.com</a>
+          <span>IT / 디지털 도구</span>
+        </div>
+        <div class="blog-item">
+          <a href="https://3.urinury.com">3.urinury.com</a>
+          <span>생산성 / 업무 자동화</span>
+        </div>
+        <div class="blog-item">
+          <a href="https://4.urinury.com">4.urinury.com</a>
+          <span>실험 / 테스트</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>소개</h2>
+      <div class="about">
+        <p>
+          우리누리는 AI와 자동화 기술을 활용하여 실용적인 정보성 콘텐츠를 정리하는 블로그 네트워크입니다.
+          IT, 디지털 도구, 생산성, 블로그 운영, 자동화 관련 정보를 중심으로 운영됩니다.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p>© 2026 Urinury. All rights reserved.</p>
+    <p>Contact: <a href="mailto:joony1028@naver.com">joony1028@naver.com</a></p>
+  </footer>
+</body>
+</html>
